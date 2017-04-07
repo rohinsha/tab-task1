@@ -1,0 +1,118 @@
+@import 'variables';
+.first-animation{
+	position: absolute;
+	top:200px;
+	height:150px;
+	width:100%;
+	
+	ul{padding:0px !important;
+	    text-decoration: none;
+		position: absolute;
+		top:50px;
+		margin-left:0px auto; 
+	    height:100px;
+		width:100%;
+		 li{
+			list-style: none;
+			display:inline;
+			font-size: 4rem;
+			height:180px;
+			width: 180px;
+			border-radius: 180px;
+			border:2px solid red;
+			padding:15px;
+			margin:200px;
+			position: relative;
+
+	      }
+	   
+
+		li:nth-child(3):after{
+			content:'';
+			display:none;
+		}
+		li:nth-child(1):after{
+			content:"";
+			position:absolute;
+			left:74px;
+			height:3px;
+			width:450px;
+			top:30px;
+			background-color:#474747;
+			animation-name: first-hr;
+		    animation-duration: 6s;
+			animation-fill-mode:forwards;
+				
+		}
+		li:nth-child(2):after{
+			content:"";
+			position:absolute;
+			left:74px;
+			height:3px;
+			width:450px;
+			top:30px;
+			background-color:#474747;
+			animation-name: first-hr;
+		    animation-duration: 20s;
+			animation-fill-mode:forwards;
+        }
+        li:nth-child(1){
+			animation-name: example;
+			animation-duration:3s;
+			animation-fill-mode:forwards;
+		}
+		 li:nth-child(2){
+			animation-name: example;
+		    animation-duration: 16s;
+			animation-fill-mode:forwards;
+		}
+		li:nth-child(3){
+			animation-name: example;
+		    animation-duration: 25s;
+			animation-fill-mode:forwards;
+	    }
+
+		li:nth-child(1) span{
+			animation-name: spanfirst;
+		    animation-duration: 3s;
+			animation-fill-mode:forwards;	
+	    }
+	    li span{
+	 		color:white;
+  		}
+	   li:nth-child(2) span{
+		animation-name: spanfirst;
+	    animation-duration: 16s;
+		animation-fill-mode:forwards;	
+		}
+
+		li:nth-child(3) span{
+			animation-name: spanfirst;
+		    animation-duration: 25s;
+			animation-fill-mode:forwards;	
+			}
+
+    }
+}
+
+
+
+
+
+
+
+
+@keyframes spanfirst{
+    from {color:$darkGray ;
+ }
+    to {color:white ;
+ }
+}
+@keyframes first-hr {
+    from {background-color: #474747;}
+    to {background-color:#e5ab13;}
+}
+@keyframes example {
+    from {background-color: white;border:2px solid #474747;}
+    to {background-color:#e5ab13;border:1px solid white;}
+}

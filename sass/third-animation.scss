@@ -1,0 +1,78 @@
+#text-list{
+background-color:$white;
+top:-70px;
+height:610px;
+	.heading-3{
+      color:$darkGray;
+      font-size:35px;
+      margin-top:50px;
+      padding-top:40px;
+	}
+	.main-block{
+	width:500px;
+	height:350px;
+	background-color:white;
+	padding-top:10px;
+	border-radius:25px;
+	margin-top:50px;
+	}
+
+label input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  
+}
+
+label span.y {
+
+  color:$darkGray;
+}
+
+
+
+label input:checked ~span.y {
+ color:$yellow; 
+}
+
+li{
+	float:left;
+   list-style:none;
+   padding:0px 10px;
+   margin-left:0px;
+   &:hover{
+	color:$darkGreen;
+}
+}
+ul{
+	float:right;
+	margin-left:10px !important;
+margin-top:5px;
+}
+.first-checklist-items{
+	width:450px;
+	padding-left:15px;
+	margin-top:15px;
+	
+ }
+ .text-icon{
+ font-size:20px;
+ margin-left:10px;
+ width:320px;
+&:hover{
+	color:$darkGreen;
+}
+ }
+ .icon-eye2{
+ margin-left:25px;
+ position:relative;
+ top:6px;
+
+ }
+ .check-1{
+ margin-top:20px !important;
+ }
+}
