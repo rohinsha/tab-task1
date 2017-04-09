@@ -25,6 +25,9 @@
   margin: 200px;
   position: relative;
 }
+.first-animation ul li span {
+  color: white;
+}
 .first-animation ul li:nth-child(3):after {
   content: '';
   display: none;
@@ -72,9 +75,6 @@
   animation-name: spanfirst;
   animation-duration: 3s;
   animation-fill-mode: forwards;
-}
-.first-animation ul li span {
-  color: white;
 }
 .first-animation ul li:nth-child(2) span {
   animation-name: spanfirst;
@@ -130,12 +130,122 @@
   max-width: 1250px;
   height: 200px;
 }
-#check li {
+#check ul li {
   position: relative;
   list-style: none;
   float: left;
   margin-top: 50px !important;
   margin-right: 150px;
+}
+#check ul li:nth-child(1) {
+  margin-left: 100px;
+}
+#check ul li:nth-child(1) .icon-circle3 {
+  color: #e5ab13;
+}
+#check ul li a {
+  top: 50px !important;
+}
+#check ul li:nth-child(1):hover .icon-circle3 {
+  font-size: 60px;
+}
+#check ul li:nth-child(2) .icon-circle3 {
+  color: #9AE7E0;
+}
+#check ul li:nth-child(2):hover .icon-circle3 {
+  font-size: 60px;
+}
+#check ul li:nth-child(3) {
+  color: #41BBD9;
+}
+#check ul li:nth-child(3):hover .icon-circle3 {
+  font-size: 60px;
+}
+#check ul li:nth-child(4) {
+  color: #3993EB;
+}
+#check ul li:nth-child(4):hover .icon-circle3 {
+  font-size: 60px;
+}
+#check ul li:nth-child(5) {
+  margin-right: 0px !important;
+}
+#check ul li:nth-child(5) .circle {
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+#check ul li:nth-child(5) .btn-circle-5 {
+  background-color: white;
+  border: 2px dashed black;
+}
+#check ul li:nth-child(5) .btn-circle-5:hover {
+  height: 70px;
+  width: 70px;
+  top: -20px;
+  border-radius: 100%;
+  border: 2px solid black;
+}
+#check ul li:nth-child(5) .inside {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: white;
+  position: absolute;
+  transition: transform(180deg);
+}
+#check ul li:nth-child(5) .inside:hover {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background-color: black;
+  position: absolute;
+  top: 14px;
+  left: 13px;
+}
+#check ul li:after {
+  content: '';
+  position: absolute;
+  height: 3px;
+  left: 30px;
+  top: 15px;
+  width: 222px;
+}
+#check ul li:nth-child(1)::after {
+  content: '';
+  background-color: #e5ab13;
+}
+#check ul li:nth-child(2)::after {
+  content: '';
+  background-color: #9AE7E0;
+}
+#check ul li:nth-child(3)::after {
+  content: '';
+  background-color: #41BBD9;
+}
+#check ul li:nth-child(4)::after {
+  content: '';
+  border: 2px dashed black;
+}
+#check ul li:nth-child(1):hover {
+  color: #e5ab13;
+}
+#check ul li:nth-child(2):hover {
+  color: #9AE7E0;
+}
+#check ul li:nth-child(3):hover {
+  color: #41BBD9;
+}
+#check ul li:nth-child(4):hover {
+  color: #3B94E3;
+}
+#check ul li:nth-child(5):hover {
+  color: black;
 }
 
 .switch {
@@ -158,7 +268,6 @@
   -webkit-transition: .4s;
   transition: .4s;
 }
-
 .slider:before {
   position: absolute;
   content: "";
@@ -197,117 +306,6 @@ input:checked + .slider:before {
   font-size: 35px;
 }
 
-#check li:nth-child(1) {
-  margin-left: 100px;
-}
-#check li:nth-child(1) .icon-circle3 {
-  color: #e5ab13;
-}
-#check li a {
-  top: 50px !important;
-}
-#check li:nth-child(1):hover .icon-circle3 {
-  font-size: 60px;
-}
-#check li:nth-child(2) .icon-circle3 {
-  color: #9AE7E0;
-}
-#check li:nth-child(2):hover .icon-circle3 {
-  font-size: 60px;
-}
-#check li:nth-child(3) {
-  color: #41BBD9;
-}
-#check li:nth-child(3):hover .icon-circle3 {
-  font-size: 60px;
-}
-#check li:nth-child(4) {
-  color: #3993EB;
-}
-#check li:nth-child(4):hover .icon-circle3 {
-  font-size: 60px;
-}
-#check li:nth-child(5) {
-  margin-right: 0px !important;
-}
-#check li:nth-child(5) .circle {
-  height: 35px;
-  width: 35px;
-  border-radius: 100%;
-  position: relative;
-  top: 0px;
-  left: 0px;
-}
-#check li:nth-child(5) .btn-circle-5 {
-  background-color: white;
-  border: 2px dashed black;
-}
-#check li:nth-child(5) .btn-circle-5:hover {
-  height: 70px;
-  width: 70px;
-  top: -20px;
-  border-radius: 100%;
-  border: 2px solid black;
-}
-#check li:nth-child(5) .inside {
-  height: 30px;
-  width: 30px;
-  border-radius: 100%;
-  top: 0px;
-  left: 0px;
-  background-color: white;
-  position: absolute;
-  transition: transform(180deg);
-}
-#check li:nth-child(5) .inside:hover {
-  height: 40px;
-  width: 40px;
-  border-radius: 100%;
-  background-color: black;
-  position: absolute;
-  top: 14px;
-  left: 13px;
-}
-#check li:after {
-  content: '';
-  position: absolute;
-  height: 3px;
-  left: 30px;
-  top: 15px;
-  width: 222px;
-}
-#check li:nth-child(1)::after {
-  content: '';
-  background-color: #e5ab13;
-}
-#check li:nth-child(2)::after {
-  content: '';
-  background-color: #9AE7E0;
-}
-#check li:nth-child(3)::after {
-  content: '';
-  background-color: #41BBD9;
-}
-#check li:nth-child(4)::after {
-  content: '';
-  border: 2px dashed black;
-}
-#check li:nth-child(1):hover {
-  color: #e5ab13;
-}
-#check li:nth-child(2):hover {
-  color: #9AE7E0;
-}
-#check li:nth-child(3):hover {
-  color: #41BBD9;
-}
-#check li:nth-child(4):hover {
-  color: #3B94E3;
-}
-#check li:nth-child(5):hover {
-  color: black;
-}
-
 .circle-text {
   position: relative;
   left: -20px;
@@ -343,25 +341,25 @@ input:checked + .slider:before {
   margin: 0;
   padding: 0;
 }
-#text-list label span.y {
-  color: #2D3E51;
-}
 #text-list label input:checked ~ span.y {
   color: #e5ab13;
 }
-#text-list li {
-  float: left;
-  list-style: none;
-  padding: 0px 10px;
-  margin-left: 0px;
-}
-#text-list li:hover {
-  color: #00BD9A;
+#text-list label span.y {
+  color: #2D3E51;
 }
 #text-list ul {
   float: right;
   margin-left: 10px !important;
   margin-top: 5px;
+}
+#text-list ul li {
+  float: left;
+  list-style: none;
+  padding: 0px 10px;
+  margin-left: 0px;
+}
+#text-list ul li:hover {
+  color: #00BD9A;
 }
 #text-list .first-checklist-items {
   width: 450px;
@@ -501,9 +499,9 @@ html, body {
   color: #00BD9A;
 }
 .nav-tabs li a {
-  margin-right: 0;
   border: 0;
   color: white;
+  margin-right: 0px !important;
 }
 .nav-tabs li a:hover {
   background-color: transparent !important;
@@ -515,10 +513,6 @@ html, body {
   border-width: 0 !important;
   background-color: transparent !important;
   color: #00BD9A !important;
-}
-
-.nav-tabs > li > a {
-  margin-right: 0px !important;
 }
 
 .tab-content {
