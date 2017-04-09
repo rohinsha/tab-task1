@@ -11,15 +11,10 @@
 html,body{
 	margin:0px;
 	padding:0px;
-	  
-
-	
-}
-
+	}
 .wrapper{
 	margin:0;
 	padding:0px;
-
 }
 .first-block{
 	position:relative;
@@ -65,7 +60,7 @@ html,body{
  }
 
 .fixed-block{
-max-width:100%;
+	max-width:100%;
 	width:1600px;
  	background-color:$darkGray;	
  	height:70px;
@@ -108,72 +103,54 @@ max-width:100%;
   margin-bottom: 0px !important;
   padding-bottom:0px;
   padding-right:0px !important;
-
-  li {
-    float: none;
-    margin: 0;
-    font-size: 35px;
- 	list-style:none; 
- 	padding:20px 35px; 
-
-     .active {
-      color:#00BD9A;
-
-      }
-     
+	li {
+	    float: none;
+	    margin: 0;
+	    font-size: 35px;
+	 	list-style:none; 
+	 	padding:20px 35px; 
+		.active {
+	      color:#00BD9A;
+		}
     a {
-      margin-right: 0;
       border: 0;
       color:white;
-      
-      
+      margin-right:0px !important;
       &:hover {
-     background-color:transparent!important;
-     border:none;
+      background-color:transparent!important;
+      border:none;
       }
-
     }
   }
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
-
-border: 0 !important;
-
-border-width: 0 !important;
-      background-color:transparent !important;
-      color:$darkGreen !important;
+	border: 0 !important;
+	border-width: 0 !important;
+    background-color:transparent !important;
+    color:$darkGreen !important;
  
 }
-.nav-tabs>li>a{
-	margin-right:0px !important;
-}
 .tab-content {
-  margin-left: 140px;
-  width:100%;
-
-  .tab-pane {
-    display:none;
-    width:91.2%;
-    margin-top:0px !important;
-    height:auto;
-    position:relative;
-    top:0px;
-    left:0px;
-  }
-  
-  .active { display: block; }
+	  margin-left: 140px;
+	  width:100%;
+ 	.tab-pane {
+		    display:none;
+		    width:91.2%;
+		    margin-top:0px !important;
+		    height:auto;
+		    position:relative;
+		    top:0px;
+		    left:0px;
+  		}
+  	.active { display: block; }
 }
-
-
 #circle {
-
- h2{
-    margin-top:0px;
-	color:$darkGray;
-	padding:40px 20px;
-	margin-left:-50px;
-	font-size:40px;
-
-    }
+	h2{
+	    margin-top:0px;
+		color:$darkGray;
+		padding:40px 20px;
+		margin-left:-50px;
+		font-size:40px;
+	}
 }
