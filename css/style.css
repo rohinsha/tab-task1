@@ -12,6 +12,7 @@
   margin-left: 0px auto;
   height: 100px;
   width: 100%;
+  text-align: center;
 }
 .first-animation ul li {
   list-style: none;
@@ -20,9 +21,8 @@
   height: 180px;
   width: 180px;
   border-radius: 180px;
-  border: 2px solid red;
   padding: 15px;
-  margin: 200px;
+  margin: 170px;
   position: relative;
 }
 .first-animation ul li span {
@@ -37,7 +37,7 @@
   position: absolute;
   left: 74px;
   height: 3px;
-  width: 450px;
+  width: 352px;
   top: 30px;
   background-color: #474747;
   animation-name: first-hr;
@@ -49,7 +49,7 @@
   position: absolute;
   left: 74px;
   height: 3px;
-  width: 450px;
+  width: 352px;
   top: 30px;
   background-color: #474747;
   animation-name: first-hr;
@@ -316,8 +316,10 @@ input:checked + .slider:before {
 
 #text-list {
   background-color: #F0F9FC;
-  top: -70px;
-  height: 610px;
+  position: absolute;
+  width: 91.25%;
+  left: 140px;
+  height: 654px;
 }
 #text-list .heading-3 {
   color: #2D3E51;
@@ -395,24 +397,19 @@ html, body {
 }
 
 .wrapper {
-  margin: 0;
-  padding: 0px;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .first-block {
-  position: relative;
-  height: 70px;
-  top: 0px;
-  left: 0px;
-  margin: 0px;
-  padding: 0px;
+  padding-left: 0 !important;
 }
 
 .left-section {
   height: 70px;
   position: relative;
   top: 0px;
-  left: -30px;
+  left: 0px;
   background-color: #2D3E51;
   width: 140px;
   float: left;
@@ -430,8 +427,8 @@ html, body {
   height: 70px;
   background-color: #00BD9A;
   position: absolute;
-  left: 125px;
-  width: 93%;
+  left: 140px;
+  width: 91.25%;
   top: 0px;
 }
 .right-section p {
@@ -443,8 +440,7 @@ html, body {
 }
 
 .fixed-block {
-  max-width: 100%;
-  width: 1600px;
+  width: 100%;
   background-color: #2D3E51;
   height: 70px;
   clear: both;
@@ -452,11 +448,10 @@ html, body {
   position: absolute;
   padding: 0px;
   left: 0px;
-  border: 1px solid #2D3E51;
 }
 .fixed-block h3 {
   color: #F0F9FC;
-  margin-left: 17px;
+  margin-left: 35px;
   font-size: 25px;
   margin-top: 17px;
 }
@@ -468,12 +463,14 @@ html, body {
   width: 100%;
   min-height: 500px;
 }
+.inner-wrapper .row {
+  margin: 0 !important;
+}
 
 .tabs-left {
   position: absolute;
   top: 0px;
   left: 0px;
-  min-height: 500px;
   width: 100%;
 }
 
@@ -482,8 +479,8 @@ html, body {
   border-bottom: 0;
   width: 140px;
   background-color: #2D3E51;
-  height: 580px;
-  padding-left: 32px;
+  height: 100%;
+  position: fixed;
   margin-bottom: 0px !important;
   padding-bottom: 0px;
   padding-right: 0px !important;
@@ -517,11 +514,11 @@ html, body {
 
 .tab-content {
   margin-left: 140px;
-  width: 100%;
+  width: 91.1%;
 }
 .tab-content .tab-pane {
   display: none;
-  width: 91.2%;
+  width: 100%;
   margin-top: 0px !important;
   height: auto;
   position: relative;
