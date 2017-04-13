@@ -178,6 +178,23 @@
     top: 34px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .first-animation ul {
+    margin: 0 !important;
+    top: 30px;
+    width: 100%;
+  }
+  .first-animation ul li {
+    margin: 80px !important;
+  }
+  .first-animation ul li:nth-child(1):after, .first-animation ul li:nth-child(2):after {
+    content: "";
+    position: absolute;
+    left: 76px;
+    width: 164px;
+    top: 34px;
+  }
+}
 #check .heading-1 {
   font-size: 40px;
   padding-top: 10px;
