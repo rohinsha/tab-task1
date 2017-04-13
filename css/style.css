@@ -542,6 +542,74 @@ input:checked + .slider:before {
   top: 6px;
 }
 
+@media screen and (max-width: 480px) {
+  #text-list {
+    width: 69.6%;
+    left: 140px;
+    min-height: 500px !important;
+  }
+  #text-list .first-checklist-items {
+    width: 300px !important;
+    padding-left: 0px !important;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    padding-top: 15px;
+  }
+  #text-list .first-checklist-items label {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  #text-list .heading-3 {
+    color: #2D3E51;
+    font-size: 35px;
+    margin-top: 10px;
+    padding-top: 20px;
+  }
+  #text-list .main-block {
+    width: 320px;
+    height: 340px;
+    background-color: white;
+    padding-top: 5px;
+    border-radius: 25px;
+    margin-top: 30px;
+  }
+  #text-list ul {
+    margin-left: 5px !important;
+    margin-top: 5px;
+  }
+  #text-list ul li {
+    padding: 0px 3px;
+    margin-left: 0px;
+    font-size: 20px;
+  }
+  #text-list ul .text-icon {
+    font-size: 10px !important;
+    margin-left: 0 !important;
+    border: 1px solid red;
+  }
+  #text-list ul .text-icon:hover {
+    color: #00BD9A;
+  }
+  #text-list ul .text-icon span .icon-eye2:before {
+    content: "\e908";
+    font-size: 50px !important;
+  }
+  #text-list ul .text-icon span .icon-eye2 {
+    margin-left: 10px !important;
+  }
+  #text-list ul .icon-share-alt:before {
+    content: "\e906";
+    font-size: 20px;
+  }
+  #text-list ul .icon-download2:before {
+    content: "\e90b";
+    font-size: 20px;
+  }
+  #text-list ul .icon-envelope-o:before {
+    content: "\e909";
+    font-size: 20px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -694,10 +762,6 @@ html, body {
 }
 
 @media screen and (max-width: 480px) {
-  body {
-    background-color: blue !important;
-  }
-
   .right-section {
     width: 70.7%;
   }
@@ -752,71 +816,6 @@ html, body {
 
   .inner-wrapper {
     min-height: 300px;
-  }
-
-  #text-list {
-    width: 69.6%;
-    left: 140px;
-    height: 500px;
-  }
-  #text-list .first-checklist-items {
-    width: 300px !important;
-    padding-left: 0px !important;
-    margin-top: 5px;
-  }
-  #text-list .first-checklist-items label {
-    margin: 0px !important;
-    padding: 0px !important;
-  }
-  #text-list .heading-3 {
-    color: #2D3E51;
-    font-size: 35px;
-    margin-top: 10px;
-    padding-top: 20px;
-  }
-  #text-list .main-block {
-    width: 320px;
-    height: 350px;
-    background-color: darkGreen;
-    padding-top: 5px;
-    border-radius: 25px;
-    margin-top: 30px;
-  }
-  #text-list ul {
-    margin-left: 5px !important;
-    margin-top: 5px;
-  }
-  #text-list ul li {
-    padding: 0px 2px;
-    margin-left: 0px;
-    font-size: 20px;
-  }
-  #text-list ul .text-icon {
-    font-size: 10px !important;
-    margin-left: 0 !important;
-    border: 1px solid red;
-  }
-  #text-list ul .text-icon:hover {
-    color: #00BD9A;
-  }
-  #text-list ul .text-icon span .icon-eye2:before {
-    content: "\e908";
-    font-size: 50px !important;
-  }
-  #text-list ul .text-icon span .icon-eye2 {
-    margin-left: 10px !important;
-  }
-  #text-list ul .icon-share-alt:before {
-    content: "\e906";
-    font-size: 20px;
-  }
-  #text-list ul .icon-download2:before {
-    content: "\e90b";
-    font-size: 20px;
-  }
-  #text-list ul .icon-envelope-o:before {
-    content: "\e909";
-    font-size: 20px;
   }
 }
 

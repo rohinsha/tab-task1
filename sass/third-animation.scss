@@ -69,4 +69,77 @@
 			}
  			
 		}
-		
+@media screen and (max-width: 480px){
+	#text-list {
+							width:69.6%;
+							left:140px;
+							min-height:500px !important;
+							.first-checklist-items{
+								width:300px !important;
+								padding-left:0px !important;
+								margin-top:5px;
+								padding-bottom:5px;
+								padding-top:15px;
+								label{
+								margin:0px !important;
+								padding:0px !important;
+								}
+				
+							 }
+							.heading-3{
+						    	color:$darkGray;
+						      	font-size:35px;
+						        margin-top:10px;
+						        padding-top:20px;
+							    }
+							.main-block{
+								width:320px;
+								height:340px;
+								background-color:white;
+								padding-top:5px;
+								border-radius:25px;
+								margin-top:30px;
+								}
+								ul{
+							margin-left:5px !important;
+							margin-top:5px;
+							li{
+							   	padding:0px 3px;
+							   	margin-left:0px;
+							   	font-size: 20px;
+
+								}
+							.text-icon{
+							font-size:10px !important;
+							margin-left:0 !important;
+							border:1px solid red;
+							&:hover{
+								color:$darkGreen;
+							}
+							span .icon-eye2:before {
+							content: "\e908";
+			 				 font-size: 50px !important;
+							}
+							span .icon-eye2{
+								margin-left:10px !important;
+							}
+						}
+						
+						
+			 			
+						.icon-share-alt:before {
+						  content: "\e906";
+						  font-size: 20px;
+						}
+						.icon-download2:before {
+						  content: "\e90b";
+						   font-size: 20px;
+						}
+						.icon-envelope-o:before {
+						  content: "\e909";
+						  font-size: 20px;
+						}
+
+				}
+		}
+	}
