@@ -153,7 +153,7 @@ html,body{
 @media screen and (max-width: 480px) {
    
     .right-section{
-		width:70.7%;
+		width:69.6%;
 		p{
 			font-size: 2.6rem;
 			top:14px;
@@ -166,33 +166,7 @@ html,body{
 			text-align: center;
 		}
 	}
-	.first-animation{
-		top:130px;
-		width:100%;
-		ul{
-			top:30px;
-			width:100%;
-			li{
-				margin:20px;
-				font-size: 3rem !important;
-				height:180px;
-				width: 180px;
-				border-radius: 180px;
-				padding:5px;
-				&:nth-child(1):after,
-				&:nth-child(2):after {
-						content:"";
-						position:absolute;
-						left:41px;
-						width:70px;
-						top:17px;
-					}
-				.icon-truck2,.icon-gift {
-  					font-size: 3rem !important;
-				}
-			}
-		}
-	}
+	
 	.tab-content{
 		width:69.6%;
 	}
@@ -202,10 +176,29 @@ html,body{
 			padding:10px 35px;
 		}
 	}
-	.inner-wrapper{
-		min-height:300px;
-	}
+	
 						
 		}
+@media screen and (min-width:481px)and (max-width: 640px){
+	  body{
+	  background-color:red !important;
+	  }
+	  .right-section{
+		width:77.9%;
+		p{
+			font-size: 3rem;
+			top:14px;
+		}
+    }
+    .tab-content{
+		width:77%;
+	}
+	#circle {
+		h2{
+		    padding:10px 10px;
+			
+		}
+	}
+	}
 	
 

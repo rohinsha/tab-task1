@@ -108,85 +108,56 @@
     from {background-color: white;border:2px solid #474747;}
     to {background-color:#e5ab13;border:1px solid white;}
 }
-@media screen and (max-width: 480px) {
-#check{
-   .heading-2{
-		margin-top:20px;
-		font-size: 26px;
-  	}
-  	.heading-1{
-		font-size:30px;
-		padding-top:10px;
-		margin-top:10px;
-	}
-	ul{
-		margin-right: 0px !important;
-		padding-right:0px !important;
-		li{
-			width:15%;
-			margin-top:10px !important;
-			margin-right:7px !important;
-			&:nth-child(1){
-				margin-left:21px;
-			}
-			&:nth-child(5){
-				margin-right:0px !important;
-			}
-    		&:after{
-				content:'';
-				position: absolute;
-				height:3px;
-				left:17px;
-				top:8px;
-				width:53px;
-				}
-			&:nth-child(1):hover,
-			&:nth-child(2):hover,
-			&:nth-child(3):hover,
-			&:nth-child(4):hover{
-				.icon-circle3{
-					font-size:30px;
+
+
+
+@media screen and (max-width: 480px){
+	.first-animation{
+		top:130px;
+		width:100%;
+		ul{
+			top:30px;
+			width:100%;
+			li{
+				margin:20px;
+				font-size: 3rem !important;
+				height:180px;
+				width: 180px;
+				border-radius: 180px;
+				padding:5px;
+				&:nth-child(1):after,
+				&:nth-child(2):after {
+						content:"";
+						position:absolute;
+						left:41px;
+						width:70px;
+						top:17px;
 					}
+				.icon-truck2,.icon-gift {
+  					font-size: 3rem !important;
+				}
 			}
 		}
-			.icon-circle3{
-				font-size:20px;
-				}
-			.circle-text{
-				padding-top:2px;
-				font-size:1rem;
-				left:-10px;
-				}
+	}
+}
+@media only screen and (min-width:481px) and (max-width: 640px) {
+.first-animation{
+		top:180px;
+		width:100%;
+		ul{
+			top:30px;
+			width:100%;
+			li{
+			margin:30px !important;
+			&:nth-child(1):after,
+				&:nth-child(2):after {
+						content:"";
+						position:absolute;
+						left:76px;
+						width:65px;
+						top:34px;
+					}
 			}
-		    .switch {
-				  top:5px ; 
-		 	}
-		 	.circle{
-			  	height:15px !important;
-			  	width:15px !important;
-			  }
-		
-				.btn-circle-5{
-					&:hover{
-						height:20px !important;
-						width:20px !important;
-						top:10px;
-						border-radius: 100%;
-						border:2px solid black;
-					}
-				}
-				.inside{
-					height:10px;
-				 	width:10px;
-					top:10px; 
-					left:0px;
-					&:hover{
-						height:15px;
-						width:15px;
-						top:14px; 
-						left:13px;
-					}
-				}
-					
+			 }
 			}
 		}

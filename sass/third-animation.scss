@@ -70,10 +70,10 @@
  			
 		}
 @media screen and (max-width: 480px){
-	#text-list {
+	#text-list { background-color:blue;
 							width:69.6%;
 							left:140px;
-							min-height:500px !important;
+							height:500px;
 							.first-checklist-items{
 								width:300px !important;
 								padding-left:0px !important;
@@ -93,18 +93,18 @@
 						        padding-top:20px;
 							    }
 							.main-block{
-								width:320px;
-								height:340px;
+								width:310px;
+								height:320px;
 								background-color:white;
 								padding-top:5px;
 								border-radius:25px;
 								margin-top:30px;
 								}
 								ul{
-							margin-left:5px !important;
-							margin-top:5px;
+								margin-left:2px !important;
+								margin-top:5px;
 							li{
-							   	padding:0px 3px;
+							   	padding:0px 2px;
 							   	margin-left:0px;
 							   	font-size: 20px;
 
