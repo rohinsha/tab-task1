@@ -113,9 +113,81 @@
     border: 1px solid white;
   }
 }
+@media screen and (max-width: 480px) {
+  #check .heading-2 {
+    margin-top: 20px;
+    font-size: 26px;
+  }
+  #check .heading-1 {
+    font-size: 30px;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+  #check ul {
+    margin-right: 0px !important;
+    padding-right: 0px !important;
+  }
+  #check ul li {
+    width: 15%;
+    margin-top: 10px !important;
+    margin-right: 7px !important;
+  }
+  #check ul li:nth-child(1) {
+    margin-left: 21px;
+  }
+  #check ul li:nth-child(5) {
+    margin-right: 0px !important;
+  }
+  #check ul li:after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    left: 17px;
+    top: 8px;
+    width: 53px;
+  }
+  #check ul li:nth-child(1):hover .icon-circle3, #check ul li:nth-child(2):hover .icon-circle3, #check ul li:nth-child(3):hover .icon-circle3, #check ul li:nth-child(4):hover .icon-circle3 {
+    font-size: 30px;
+  }
+  #check ul .icon-circle3 {
+    font-size: 20px;
+  }
+  #check ul .circle-text {
+    padding-top: 2px;
+    font-size: 1rem;
+    left: -10px;
+  }
+  #check .switch {
+    top: 5px;
+  }
+  #check .circle {
+    height: 15px !important;
+    width: 15px !important;
+  }
+  #check .btn-circle-5:hover {
+    height: 20px !important;
+    width: 20px !important;
+    top: 10px;
+    border-radius: 100%;
+    border: 2px solid black;
+  }
+  #check .inside {
+    height: 10px;
+    width: 10px;
+    top: 10px;
+    left: 0px;
+  }
+  #check .inside:hover {
+    height: 15px;
+    width: 15px;
+    top: 14px;
+    left: 13px;
+  }
+}
 #check .heading-1 {
   font-size: 40px;
-  padding-top: 20px;
+  padding-top: 10px;
+  margin-top: 10px;
 }
 #check .heading-2 {
   margin-top: 80px;
@@ -331,6 +403,77 @@ input:checked + .slider:before {
   width: 100px;
 }
 
+@media screen and (max-width: 480px) {
+  #check .heading-2 {
+    margin-top: 20px;
+    font-size: 26px;
+  }
+  #check .heading-1 {
+    font-size: 30px;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+  #check ul {
+    margin-right: 0px !important;
+    padding-right: 0px !important;
+  }
+  #check ul li {
+    width: 15%;
+    margin-top: 10px !important;
+    margin-right: 7px !important;
+  }
+  #check ul li:nth-child(1) {
+    margin-left: 19px;
+  }
+  #check ul li:nth-child(5) {
+    margin-right: 0px !important;
+  }
+  #check ul li:after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    left: 17px;
+    top: 8px;
+    width: 53px;
+  }
+  #check ul li:nth-child(1):hover .icon-circle3, #check ul li:nth-child(2):hover .icon-circle3, #check ul li:nth-child(3):hover .icon-circle3, #check ul li:nth-child(4):hover .icon-circle3 {
+    font-size: 30px;
+  }
+  #check ul .icon-circle3 {
+    font-size: 20px;
+  }
+  #check ul .circle-text {
+    padding-top: 2px;
+    font-size: 1rem;
+    left: -10px;
+  }
+  #check .switch {
+    top: 5px;
+  }
+  #check .circle {
+    height: 15px !important;
+    width: 15px !important;
+  }
+  #check .btn-circle-5:hover {
+    height: 20px !important;
+    width: 20px !important;
+    top: 10px;
+    border-radius: 100%;
+    border: 2px solid black;
+  }
+  #check .inside {
+    height: 10px;
+    width: 10px;
+    top: 10px;
+    left: 0px;
+  }
+  #check .inside:hover {
+    height: 15px;
+    width: 15px;
+    top: 14px;
+    left: 13px;
+  }
+}
 #text-list {
   background-color: #F0F9FC;
   position: absolute;
@@ -397,9 +540,6 @@ input:checked + .slider:before {
   margin-left: 25px;
   position: relative;
   top: 6px;
-}
-#text-list .check-1 {
-  margin-top: 20px !important;
 }
 
 * {
@@ -550,8 +690,134 @@ html, body {
   margin-top: 0px;
   color: #2D3E51;
   padding: 40px 20px;
-  margin-left: -50px;
   font-size: 40px;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: blue !important;
+  }
+
+  .right-section {
+    width: 70.7%;
+  }
+  .right-section p {
+    font-size: 2.6rem;
+    top: 14px;
+  }
+
+  #circle h2 {
+    padding: 20px 10px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .first-animation {
+    top: 130px;
+    width: 100%;
+  }
+  .first-animation ul {
+    top: 30px;
+    width: 100%;
+  }
+  .first-animation ul li {
+    margin: 20px;
+    font-size: 3rem !important;
+    height: 180px;
+    width: 180px;
+    border-radius: 180px;
+    padding: 5px;
+  }
+  .first-animation ul li:nth-child(1):after, .first-animation ul li:nth-child(2):after {
+    content: "";
+    position: absolute;
+    left: 41px;
+    width: 70px;
+    top: 17px;
+  }
+  .first-animation ul li .icon-truck2, .first-animation ul li .icon-gift {
+    font-size: 3rem !important;
+  }
+
+  .tab-content {
+    width: 69.6%;
+  }
+
+  .nav-tabs {
+    height: 85%;
+  }
+  .nav-tabs li {
+    padding: 10px 35px;
+  }
+
+  .inner-wrapper {
+    min-height: 300px;
+  }
+
+  #text-list {
+    width: 69.6%;
+    left: 140px;
+    height: 500px;
+  }
+  #text-list .first-checklist-items {
+    width: 300px !important;
+    padding-left: 0px !important;
+    margin-top: 5px;
+  }
+  #text-list .first-checklist-items label {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  #text-list .heading-3 {
+    color: #2D3E51;
+    font-size: 35px;
+    margin-top: 10px;
+    padding-top: 20px;
+  }
+  #text-list .main-block {
+    width: 320px;
+    height: 350px;
+    background-color: darkGreen;
+    padding-top: 5px;
+    border-radius: 25px;
+    margin-top: 30px;
+  }
+  #text-list ul {
+    margin-left: 5px !important;
+    margin-top: 5px;
+  }
+  #text-list ul li {
+    padding: 0px 2px;
+    margin-left: 0px;
+    font-size: 20px;
+  }
+  #text-list ul .text-icon {
+    font-size: 10px !important;
+    margin-left: 0 !important;
+    border: 1px solid red;
+  }
+  #text-list ul .text-icon:hover {
+    color: #00BD9A;
+  }
+  #text-list ul .text-icon span .icon-eye2:before {
+    content: "\e908";
+    font-size: 50px !important;
+  }
+  #text-list ul .text-icon span .icon-eye2 {
+    margin-left: 10px !important;
+  }
+  #text-list ul .icon-share-alt:before {
+    content: "\e906";
+    font-size: 20px;
+  }
+  #text-list ul .icon-download2:before {
+    content: "\e90b";
+    font-size: 20px;
+  }
+  #text-list ul .icon-envelope-o:before {
+    content: "\e909";
+    font-size: 20px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

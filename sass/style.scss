@@ -25,7 +25,7 @@ html,body{
 	height:70px;
     position:relative;
     top:0px;
- left:0px; 
+	left:0px; 
     background-color: $darkGray;
  	width:140px;
  	float: left;
@@ -147,7 +147,134 @@ html,body{
 	    margin-top:0px;
 		color:$darkGray;
 		padding:40px 20px;
-		margin-left:-50px;
 		font-size:40px;
 	}
 }
+@media screen and (max-width: 480px) {
+    body {
+        background-color: blue !important;
+    }
+    .right-section{
+		width:70.7%;
+		p{
+			font-size: 2.6rem;
+			top:14px;
+		}
+    }
+    #circle {
+		h2{
+		    padding:20px 10px;
+			font-size:25px;
+			text-align: center;
+		}
+	}
+	.first-animation{
+		top:130px;
+		width:100%;
+		ul{
+			top:30px;
+			width:100%;
+			li{
+				margin:20px;
+				font-size: 3rem !important;
+				height:180px;
+				width: 180px;
+				border-radius: 180px;
+				padding:5px;
+				&:nth-child(1):after,
+				&:nth-child(2):after {
+						content:"";
+						position:absolute;
+						left:41px;
+						width:70px;
+						top:17px;
+					}
+				.icon-truck2,.icon-gift {
+  					font-size: 3rem !important;
+				}
+			}
+		}
+	}
+	.tab-content{
+		width:69.6%;
+	}
+	.nav-tabs{
+		height:85%;
+		li{
+			padding:10px 35px;
+		}
+	}
+	.inner-wrapper{
+		min-height:300px;
+	}
+						#text-list{
+							width:69.6%;
+							left:140px;
+							height:500px;
+							.first-checklist-items{
+								width:300px !important;
+								padding-left:0px !important;
+								margin-top:5px;
+								label{
+								margin:0px !important;
+								padding:0px !important;
+								}
+				
+							 }
+							.heading-3{
+						    	color:$darkGray;
+						      	font-size:35px;
+						        margin-top:10px;
+						        padding-top:20px;
+							    }
+							.main-block{
+								width:320px;
+								height:350px;
+								background-color:darkGreen;
+								padding-top:5px;
+								border-radius:25px;
+								margin-top:30px;
+								}
+								ul{
+							margin-left:5px !important;
+							margin-top:5px;
+							li{
+							   	padding:0px 2px;
+							   	margin-left:0px;
+							   	font-size: 20px;
+								}
+							.text-icon{
+							font-size:10px !important;
+							margin-left:0 !important;
+							border:1px solid red;
+							&:hover{
+								color:$darkGreen;
+							}
+							span .icon-eye2:before {
+							content: "\e908";
+			 				 font-size: 50px !important;
+							}
+							span .icon-eye2{
+								margin-left:10px !important;
+							}
+						}
+						
+						
+			 			
+						.icon-share-alt:before {
+						  content: "\e906";
+						  font-size: 20px;
+						}
+						.icon-download2:before {
+						  content: "\e90b";
+						   font-size: 20px;
+						}
+						.icon-envelope-o:before {
+						  content: "\e909";
+						  font-size: 20px;
+						}
+
+				}
+		}
+	}
+
