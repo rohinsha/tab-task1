@@ -70,7 +70,8 @@
  			
 		}
 @media screen and (max-width: 480px){
-	#text-list { background-color:blue;
+	#text-list {            
+
 							width:69.6%;
 							left:140px;
 							height:500px;
@@ -143,3 +144,91 @@
 				}
 		}
 	}
+@media only screen and (min-width:481px) and (max-width: 640px) {
+	#text-list{
+		background-color:blue;
+		width:77.6%;
+		height:500px;
+		ul{
+			li {
+			padding:6px !important;
+			margin-top:-5px !important;
+			}
+		}
+		span .icon-eye2 {
+			margin-left:14px !important;
+			}
+		.text-icon {
+			font-size:20px !important;
+			padding-top:15px;
+			&:hover {
+				color:$darkGreen;
+			}
+		}
+	}
+	.first-checklist-items {
+			width:400px !important;
+			padding-left:0px !important;
+			margin-top:-10px !important;
+			padding-bottom:5px;
+			padding-top:25px;
+		}
+	.main-block {
+			margin-left:-15px;
+			width:410px !important;
+			height:390px !important;
+			background-color:white;
+			padding-top:5px;
+			border-radius:25px;
+			margin-bottom:30px !important;
+			margin-top:-10px !important;
+		}
+	.heading-3 {
+			font-size:25px;
+			margin-top:-10px !important;
+			padding-top:5px;
+			padding-bottom:15px;
+		}
+		.inner-wrapper{
+		height:497px;
+		}
+}
+@media only screen and (min-width:641px)and (max-width: 767px){
+	#text-list{
+		
+		width:81.2%;
+		height:500px;
+		ul{
+			li {
+			padding:6px !important;
+			margin-top:-5px !important;
+			}
+		}
+		.first-checklist-items {
+			width:400px !important;
+			padding-left:0px !important;
+			margin-top:-10px !important;
+			padding-bottom:5px;
+			padding-top:25px;
+		}
+	.main-block {
+			
+			width:410px !important;
+			height:390px !important;
+			background-color:white;
+			padding-top:5px;
+			border-radius:25px;
+			margin-bottom:30px !important;
+			margin-top:-10px !important;
+		}
+	.heading-3 {
+			font-size:35px;
+			margin-top:10px !important;
+			padding-top:5px;
+			padding-bottom:15px;
+		}
+		.inner-wrapper{
+		height:497px;
+		}
+	}
+}

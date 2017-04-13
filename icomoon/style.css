@@ -23,10 +23,21 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+@media only screen and (min-width:481px) and (max-width: 640px){
+  .icon-eye2:before {
+  content: "\e908";
+  font-size: 30px !important;
+   padding-left: 1px;
+}
+.icon-eye2 {
+ margin-left:1px !important;
+}
+}
 @media screen and (max-width: 480px){
 .icon-eye2:before {
   content: "\e908";
   font-size: 20px !important;
+
 }
 .icon-eye2 {
  margin-left:2px !important;

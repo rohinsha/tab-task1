@@ -179,12 +179,10 @@ html,body{
 	
 						
 		}
-@media screen and (min-width:481px)and (max-width: 640px){
-	  body{
-	  background-color:red !important;
-	  }
+@media only screen and (min-width:481px)and (max-width: 640px){
+	 
 	  .right-section{
-		width:77.9%;
+		width:77.6%;
 		p{
 			font-size: 3rem;
 			top:14px;
@@ -199,6 +197,35 @@ html,body{
 			
 		}
 	}
-	}
+}
+@media only screen and (min-width:641px)and (max-width: 767px){
 	
+	.right-section{
+		width:81.2%;
+		p {
+			font-size: 2.6rem;
+			top:14px;
+			text-align:center;
+		}
+    }
+    .tab-content{
+		width:81.1%;
+	}
 
+}
+@media only screen and (min-width:768px)and (max-width: 1024px)
+{
+	body{
+	background-color:red !important;
+	}
+	.right-section{
+		width:86.1%;
+		p{
+			font-size: 3rem;
+			top:14px;
+		}
+    }
+     .tab-content{
+		width:86.1%;
+	}
+}

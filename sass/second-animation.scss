@@ -364,3 +364,54 @@ input:checked + .slider:before {
 			}
   		}
 }
+@media only screen and (min-width:641px)and (max-width: 767px){
+	#check{
+   .heading-2 {
+		margin-top:10px;
+		font-size: 25px;
+  	}	
+  	.heading-1 {
+		font-size:25px;
+		padding-top:5px;
+		margin-top:10px;
+	}
+	.switch {
+		top:-2px ; 
+		}
+	ul{
+	width:96%;
+	
+		margin:0px auto !important;
+		li{
+			width:4%;
+			margin-top:10px !important;
+			margin-right:70px !important;
+			&:nth-child(1){
+			margin-left:80px !important;
+			}
+			&:nth-child(5){
+				margin-right:0px !important;
+			}
+    		&:after{
+				
+				left:30px;
+				top:14px;
+				width:64px;
+				}
+			&:nth-child(1):hover,
+			&:nth-child(2):hover,
+			&:nth-child(3):hover,
+			&:nth-child(4):hover{
+				.icon-circle3{
+					font-size:40px;
+					}
+			}
+		}
+		.circle-text{
+				padding-top:2px;
+				font-size:2rem;
+				left:-15px;
+			}
+	}
+  }
+}
